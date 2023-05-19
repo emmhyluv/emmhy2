@@ -1,0 +1,59 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            // object oriented programming
+            class Student {
+                constructor(name,age,level){
+                    this.name = name;
+                    this.age = age;
+                   this.level = level;
+                }
+                move(){
+                    console.log(`${this.name} is ${this.age} years old and is in ${this.level}`)
+                }
+                go(){
+                    alert(`This is ${this.name}`)
+                }
+
+            }
+        let Student1 = new Student('kunle', '23', '200 level')
+        let Student2 = new Student('tunde', '23', '100 level')
+        let Student3 = new Student('Tade', '25', '300 level')
+        let Student4 = new Student('ayo', '19', '400 level')
+        let Student5 = new Student('bolu', '19', '500 level')
+        let Student6 = new Student('Ola', '19', '100 level')
+        let Student7 = new Student('segun', '19', '300 level')
+        let Student8 = new Student('imole', '19', '200 level')
+        let Student9 = new Student('Deji', '19', '400 level')
+        let Student10 = new Student('Remilekun', '19', '100 level')
+        console.log(Student2, Student3, Student4, Student5, Student6, Student7, Student8, Student9, Student10);
+        Student1.move()
+        Student2.move()
+        Student3.move()
+        Student4.move()
+        Student5.move()
+        Student6.move()
+        Student7.move()
+        Student8.move()
+        Student9.move()
+        Student10.move()
+        Student1.go()
+        Student2.go()
+        Student3.go()
+        Student4.go()
+        Student5.go()
+        Student6.go()
+        Student7.go()
+        Student8.go()
+        Student9.go()
+        Student10.go()
+        </script>
+    </body>
+    </html>
